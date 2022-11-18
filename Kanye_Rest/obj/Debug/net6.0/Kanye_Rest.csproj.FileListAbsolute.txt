@@ -1,0 +1,17 @@
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\bin\Debug\net6.0\Kanye_Rest.exe
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\bin\Debug\net6.0\Kanye_Rest.deps.json
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\bin\Debug\net6.0\Kanye_Rest.runtimeconfig.json
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\bin\Debug\net6.0\Kanye_Rest.dll
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\bin\Debug\net6.0\Kanye_Rest.pdb
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.csproj.AssemblyReference.cache
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.AssemblyInfoInputs.cache
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.AssemblyInfo.cs
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.csproj.CoreCompileInputs.cache
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.dll
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\refint\Kanye_Rest.dll
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.pdb
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.genruntimeconfig.cache
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\ref\Kanye_Rest.dll
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\coder\OneDrive\Desktop\REPOS\Kanye_Rest\Kanye_Rest\obj\Debug\net6.0\Kanye_Rest.csproj.CopyComplete
