@@ -12,9 +12,23 @@ namespace Kanye_Rest
             var ronURL = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
             #endregion
 
+            #region UserInput
+            Console.WriteLine("Kanye West and Ron Swanson Conversation simulator.");
+            Console.WriteLine("");
+            Console.WriteLine("Please enter the number of exchanges you would like to see:");
+            Console.WriteLine("");
+            var exchanges = int.Parse(Console.ReadLine());
+            Console.WriteLine("");
+            Console.WriteLine("Conversation shall now be simulated.");
+            Console.WriteLine("Enter any key to continue:");
+            Console.ReadLine();
+            Console.Clear();
+            #endregion
+
+
             #region Kanye West Quote Generator
-            var kanyeQuotes = new string[5];
-            var kanyeResponses = new string[5];
+            var kanyeQuotes = new string[exchanges];
+            var kanyeResponses = new string[exchanges];
             for (int i = 0; i < kanyeResponses.Length; i++)
             { 
                 kanyeResponses[i] = client.GetStringAsync(kanyeURL).Result;
@@ -23,8 +37,8 @@ namespace Kanye_Rest
             #endregion
 
             #region Ron Swanson Quote Generator
-            var ronQuotes = new string[5];
-            var ronResponses = new string[5];
+            var ronQuotes = new string[exchanges];
+            var ronResponses = new string[exchanges];
             for (int i = 0; i < ronResponses.Length; i++)
             { 
                 ronResponses[i] = client.GetStringAsync(ronURL).Result;
