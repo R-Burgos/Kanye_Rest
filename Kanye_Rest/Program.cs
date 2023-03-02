@@ -13,7 +13,7 @@ namespace Kanye_Rest
             var ronURL = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
             #endregion
 
-            var cont = true;
+            var cont = false;
 
             do
             {
@@ -22,7 +22,12 @@ namespace Kanye_Rest
                 Console.WriteLine("");
                 Console.WriteLine("Please enter the number of exchanges you would like to see:");
                 Console.WriteLine("");
-                var exchanges = int.Parse(Console.ReadLine());
+                int exchanges;
+                bool condition;
+                do
+                {
+                    condition = int.TryParse(Console.ReadLine(), out exchanges);
+                } while (!condition);
                 Console.WriteLine("");
                 Console.WriteLine("Conversation shall now be simulated.");
                 Console.WriteLine("Enter any key to continue:");
