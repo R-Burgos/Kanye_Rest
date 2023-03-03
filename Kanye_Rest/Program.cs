@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
+using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Kanye_Rest
@@ -37,32 +38,30 @@ namespace Kanye_Rest
 
 
                 #region Kanye West Quote Generator
-                var kanyeQuotes = new string[exchanges];
-                var kanyeResponses = new string[exchanges];
-                for (int i = 0; i < kanyeResponses.Length; i++)
+                var kanyeSays = new string[exchanges];
+                for (int i = 0; i < kanyeSays.Length; i++)
                 {
-                    kanyeResponses[i] = client.GetStringAsync(kanyeURL).Result;
-                    kanyeQuotes[i] = JObject.Parse(kanyeResponses[i]).GetValue("quote").ToString();
+                        kanyeSays[i] = JObject.Parse(client.GetStringAsync(kanyeURL)
+                            .Result).GetValue("quote").ToString();
                 }
                 #endregion
 
                 #region Ron Swanson Quote Generator
-                var ronQuotes = new string[exchanges];
-                var ronResponses = new string[exchanges];
-                for (int i = 0; i < ronResponses.Length; i++)
+                var ronSays = new string[exchanges];
+                for (int i = 0; i < ronSays.Length; i++)
                 {
-                    ronResponses[i] = client.GetStringAsync(ronURL).Result;
-                    ronQuotes[i] = JArray.Parse(ronResponses[i]).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
+                    ronSays[i] = JArray.Parse(client.GetStringAsync(ronURL)
+                        .Result).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
                 }
                 #endregion
 
                 #region Conversation
-                for (int i = 0; i < kanyeResponses.Length; i++)
+                for (int i = 0; i < kanyeSays.Length; i++)
                 {
                     Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine($"Kayne says, \"{kanyeQuotes[i]}.\"");
+                    Console.WriteLine($"Kayne says, \"{kanyeSays[i]}.\"");
                     Console.ForegroundColor = ConsoleColor.DarkBlue;
-                    Console.WriteLine($"Ron says, {ronQuotes[i]}");
+                    Console.WriteLine($"Ron says, {ronSays[i]}");
                 }
                 #endregion
 
