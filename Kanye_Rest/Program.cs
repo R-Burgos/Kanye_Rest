@@ -98,7 +98,6 @@ namespace Kanye_Rest
                 Console.Clear();
 
             } while (cont == true);
-            Console.ForegroundColor = ConsoleColor.Gray;
         }
     }
 }
